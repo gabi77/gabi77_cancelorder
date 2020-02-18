@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Gabi77_Cancelorder
+ *
+ * @category    Gabi77
+ * @package     Gabi77_Cancelorder
+ * @copyright   Copyright (c) 2020 Gabi77
+ * @author      Gabriel Janez (http://www.gabi77.com)
+ * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<config>
+    <modules>
+        <Gabi77_Cancelorder>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Gabi77_Cancelorder>
+    </modules>
+</config>

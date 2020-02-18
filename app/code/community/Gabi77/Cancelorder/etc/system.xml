@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Gabi77_Cancelorder
+ *
+ * @category    Gabi77
+ * @package     Gabi77_Cancelorder
+ * @copyright   Copyright (c) 2020 Gabi77
+ * @author      Gabriel Janez (http://www.gabi77.com)
+ * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<config>
+    <tabs>
+        <gabi77 translate="label">
+            <label>gabi77</label>
+            <sort_order>200</sort_order>
+        </gabi77>
+    </tabs>
+    <sections>
+      <gabi77_cancelorder translate="label comment">
+            <label>Cancel Order</label>
+            <tab>gabi77</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>21</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <general translate="label comment">
+                    <label>General</label>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <enabled translate="label comment">
+                            <label>Enabled</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enabled>
+                        <time translate="label comment">
+                            <label>Time</label>
+                            <frontend_type>text</frontend_type>
+                            <comment>reduces minutes</comment>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </time>
+                    </fields>
+                </general>
+            </groups>
+        </gabi77_cancelorder>
+    </sections>
+</config>
